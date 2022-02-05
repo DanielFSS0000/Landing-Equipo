@@ -1,3 +1,7 @@
+*{
+  box-sizing: border-box;
+}
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -419,6 +423,49 @@
     align-items: center;
     width: 13rem;
   }
+  
+  /*-------------FOOTEER------------------------------*/
+  .align-start {
+    align-items: flex-start;
+   }
+  .container {
+    box-sizing: border-box;
+    padding: 0 20px;
+    margin: 0 auto;
+    max-width: 100%;
+    width: 1000px;
+
+   }
+   footer {
+    background-color: hsl(192, 100%, 9%);
+    color: #fff;
+    padding: 180px 0 60px;
+   }
+   footer ul {
+    list-style-type: none;
+   }
+   footer ul li {
+    margin-bottom: 20px;
+   }
+   footer .social-media {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+   footer .circle {
+    margin-right: 10px;
+    height: 40px;
+    width: 40px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    color: #fff;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+   }
+
+
   @media (min-width: 1024px) {
     .header__img {
       width: 15rem;
